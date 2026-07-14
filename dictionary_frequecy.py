@@ -1,8 +1,8 @@
-test_dict = {'Codingal' : 2, 'is' : 2, 'best' : 2, 'for' : 2, 'learning' : 2, 'coding' : 1}
+test_dict = {'Codingal' : 2, 'is' : 3, 'best' : 2, 'for' : 2, 'learning' : 3, 'coding' : 1}
 
 print("Original Dictionary : " + str(test_dict))
 
-K = 2
+K = int(input("Enter the value to find frequency : "))
 
 res = 0
 
