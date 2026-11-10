@@ -50,5 +50,22 @@ for _i in range(num_of_enemies):
     enemyX.change.append(ENEMY_SPEED_X)
     enemyY.change.append(ENEMY_SPEED_Y)
 
+#bullet
+bulletImg = pygame.image.load("bullet.png")
+bulletX = 0
+bulletY = PLAYER_START_Y
+bulletX_change = 0
+bulletY_change = BULLET_SPEED_Y
+bullet_state = "ready" 
+
+#score
+score_value = 0
+font = pygame.font.Font('freesansbold.ttf', 32)
+textX = 10
+textY = 10
+
+#game over text
+over_font = pygame.font.Font('freesansbold.ttf', 64)
+
 
   
